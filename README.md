@@ -4,8 +4,8 @@ This script automates the process of subdomains enumaration using several existi
 
 
 ### 🛠️ What This Tool Does:
-✅ Run subdomain enumeration tools with subprocess
-✅ Checks live subdomains
+- ✅ Run subdomain enumeration tools with subprocess
+- ✅ Checks live subdomains
 
 This makes subdomain enumeration faster, and more effective! 🚀
 
@@ -13,13 +13,13 @@ This makes subdomain enumeration faster, and more effective! 🚀
 ### Prerequisites
 Ensure the following tools are installed before running the script:
 
-[amass](https://github.com/owasp-amass/amass)
-[gobuster](https://github.com/OJ/gobuster)
-[subfinder](https://github.com/projectdiscovery/subfinder)
-[assetfinder](https://github.com/tomnomnom/assetfinder)
-[httpx-toolkit](https://github.com/projectdiscovery/httpx)
-[docker](https://docs.docker.com/engine/install/)
-[dnsx](https://github.com/projectdiscovery/dnsx)
+- [amass](https://github.com/owasp-amass/amass)
+- [gobuster](https://github.com/OJ/gobuster)
+- [subfinder](https://github.com/projectdiscovery/subfinder)
+- [assetfinder](https://github.com/tomnomnom/assetfinder)
+- [httpx-toolkit](https://github.com/projectdiscovery/httpx)
+- [docker](https://docs.docker.com/engine/install/)
+- [dnsx](https://github.com/projectdiscovery/dnsx)
 
 
 ### Installation
