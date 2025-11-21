@@ -184,8 +184,8 @@ def main():
 	parser = argparse.ArgumentParser(description="Parallel recon launcher for bug-bounty recon")
 	parser.add_argument("target", help="Target domain (e.g. target.com)")
 	parser.add_argument("-o", "--output", default=".", help="Output directory (default: current working directory)")
-	parser.add_argument("-gwl1", "--gobuster-wordlist-1", default="/usr/share/wordlists/seclists/Discovery/DNS/bug-bounty-program-subdomains-trickest-inventory.txt", help="Worlist for first gobuster command (default: /usr/share/wordlists/seclists/Discovery/DNS/bug-bounty-program-subdomains-trickest-inventory.txt)")
-	parser.add_argument("-gwl2", "--gobuster-wordlist-2", default="/usr/share/wordlists/seclists/Discovery/DNS/dns-Jhaddix.txt", help="Worlist for second gobuster command (default: /usr/share/wordlists/seclists/Discovery/DNS/dns-Jhaddix.txt)")
+	parser.add_argument("-gwl1", "--gobuster-wordlist-1", default="/usr/share/seclists/Discovery/DNS/bug-bounty-program-subdomains-trickest-inventory.txt", help="Worlist for first gobuster command (default: /usr/share/wordlists/seclists/Discovery/DNS/bug-bounty-program-subdomains-trickest-inventory.txt)")
+	parser.add_argument("-gwl2", "--gobuster-wordlist-2", default="/usr/share/seclists/Discovery/DNS/dns-Jhaddix.txt", help="Worlist for second gobuster command (default: /usr/share/wordlists/seclists/Discovery/DNS/dns-Jhaddix.txt)")
 	args = parser.parse_args()
 
 	target = args.target.strip()

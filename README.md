@@ -21,6 +21,7 @@ Ensure the following tools are installed before running the script:
 - [docker](https://docs.docker.com/engine/install/)
 - [dnsx](https://github.com/projectdiscovery/dnsx)
 
+or if you use docker 7Gb of storage
 
 ### Installation
 Clone the repository and navigate into it:
@@ -33,6 +34,13 @@ cd subenum
 ```
 python3 subenum.py target.com
 python3 subenum.py target.com -o /path/to/output/directory
+```
+
+with docker
+```
+docker build -t subenum .
+docker run -it --entrypoint /bin/bash subenum
+python3 subenum.py target.com
 ```
 
 
